@@ -3,27 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Website Navigation</title>
     <link rel="stylesheet" href="MyStyles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="Website.html">Main Page</a></li>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="title">Our Website</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="Home.html" class="nav-link">Home</a></li>
+                    <li><a href="About.html" class="nav-link">About</a></li>
+                    <li><a href="Contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="RegistrationPage.html" class="nav-link">Register</a></li>
+                    <li><a href="LoginPage.html" class="nav-link">Login</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
-    <main>
-        <h1>Welcome to Our Home Page</h1>
-        <p>Discover more about us through the other pages, and stay connected with our journey.</p>
+    
+    <main class="container">
+        <section class="intro">
+            <h2>Welcome to Our Website</h2>
+            <p>Discover more about our offerings by navigating through the pages.</p>
+        </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
         <p>&copy; 2024 Our Website | All Rights Reserved</p>
     </footer>
 </body>
